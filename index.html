@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio professionale – struttura modulare e a lungo termine." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Portfolio Professionale</title>
+</head>
+<body>
+  <a class="skip-link" href="#contenuto-principale">Salta al contenuto</a>
+
+  <header class="site-header" role="banner">
+    <div class="shell">
+      <div class="brand" aria-label="Identità">
+        <span class="brand__name">Nome Cognome</span>
+        <span class="brand__role">Ruolo professionale</span>
+      </div>
+      <nav class="site-nav" aria-label="Navigazione principale">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="menu">Menu</button>
+        <ul id="menu" class="menu" role="list">
+          <li><a href="#identita">Home</a></li>
+          <li><a href="#percorso">Percorso</a></li>
+          <li><a href="#certificazioni">Certificazioni</a></li>
+          <li><a href="#esperienze">Esperienze</a></li>
+          <li><a href="#progetti">Progetti</a></li>
+          <li><a href="#competenze">Competenze</a></li>
+          <li><a href="#archivio">Archivio</a></li>
+          <li><a href="#contatti">Contatti</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenuto-principale" class="site-main" tabindex="-1">
+    <section id="identita" class="section section--hero" aria-labelledby="identita-title">
+      <div class="shell">
+        <p class="eyebrow">Identità professionale</p>
+        <h1 id="identita-title">Mirko Andò — Perito Informatico (Studente IT)</h1>
+        <p class="lede">Automazione e scripting Python, basi di sicurezza e gestione ambienti; attenzione all'integrità del codice e alla continuità operativa.</p>
+        <div class="hero-meta" aria-label="Sintesi rapida">
+          <div class="hero-meta__item">
+            <span class="label">Percorso</span>
+            <span class="value">In formazione · +500h PCTO</span>
+          </div>
+          <div class="hero-meta__item">
+            <span class="label">Specializzazioni</span>
+            <span class="value">Python · Automazione · Sicurezza base · Self-hosting</span>
+          </div>
+          <div class="hero-meta__item">
+            <span class="label">Località</span>
+            <span class="value">Catania (CT), IT</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="percorso" class="section" aria-labelledby="percorso-title">
+      <div class="shell">
+        <div class="section__head">
+          <p class="eyebrow">Percorso</p>
+          <h2 id="percorso-title">Evoluzione professionale</h2>
+        </div>
+        <ol class="timeline" aria-label="Tappe principali" data-order="desc">
+          <li class="timeline__item" data-year="2024-2026">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Supporto Open Day</h3>
+              <p class="timeline__meta">IIS Marconi–Mangano · Catania</p>
+              <p class="timeline__text">Accoglienza, assistenza organizzativa, presentazione percorsi formativi (a.s. 2024/2025–2025/2026, in corso).</p>
+            </div>
+          </li>
+          <li class="timeline__item" data-year="2025">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Olimpiadi di Informatica (selezioni)</h3>
+              <p class="timeline__meta">Competitor · Nazionale</p>
+              <p class="timeline__text">Sviluppo di competenze logico-matematiche e problem solving algoritmico (a.s. 2024/2025).</p>
+            </div>
+          </li>
+          <li class="timeline__item" data-year="2021-2027">
+            <div class="timeline__marker" aria-hidden="true"></div>
+            <div class="timeline__content">
+              <h3 class="timeline__title">Sezione Informatica</h3>
+              <p class="timeline__meta">IIS Marconi–Mangano · Catania</p>
+              <p class="timeline__text">Percorso tecnico (2021–2027), PCTO >500h, focus su programmazione, reti e sicurezza.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="certificazioni" class="section" aria-labelledby="certificazioni-title">
+      <div class="shell">
+        <div class="section__head">
+          <p class="eyebrow">Certificazioni</p>
+          <h2 id="certificazioni-title">Riconoscimenti formali</h2>
+        </div>
+        <ul class="cards" role="list" data-sortable="true">
+          <li class="card" data-year="2025" data-domain="Sostenibilità">
+            <div class="card__body">
+              <h3 class="card__title">Introduction to Greenhouse Gas Accounting for IT</h3>
+              <p class="card__meta">Cisco Networking Academy · 23 Apr 2025</p>
+              <p class="card__text">Metodologie di rendicontazione emissioni GHG nel contesto IT.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2025" data-domain="Networking">
+            <div class="card__body">
+              <h3 class="card__title">Networking Basics</h3>
+              <p class="card__meta">Cisco Networking Academy · 23 Apr 2025</p>
+              <p class="card__text">Fondamenti di reti, protocolli e infrastruttura.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="Security">
+            <div class="card__body">
+              <h3 class="card__title">Network Defense</h3>
+              <p class="card__meta">Cisco Networking Academy · 12 Dec 2024</p>
+              <p class="card__text">Difesa di rete e gestione minacce.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="AI">
+            <div class="card__body">
+              <h3 class="card__title">Introduction to Modern AI</h3>
+              <p class="card__meta">Cisco Networking Academy · 12 Dec 2024</p>
+              <p class="card__text">Panoramica su AI moderna e applicazioni.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="Data">
+            <div class="card__body">
+              <h3 class="card__title">Data Analytics Essentials</h3>
+              <p class="card__meta">Cisco Networking Academy · 07 Dec 2024</p>
+              <p class="card__text">Tecniche e strumenti di analisi dati.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="Digital Literacy">
+            <div class="card__body">
+              <h3 class="card__title">Using Computer and Mobile Devices</h3>
+              <p class="card__meta">Cisco Networking Academy · 24 Nov 2024</p>
+              <p class="card__text">Competenze pratiche su sistemi operativi e dispositivi.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="Digital Literacy">
+            <div class="card__body">
+              <h3 class="card__title">Digital Awareness</h3>
+              <p class="card__meta">Cisco Networking Academy · 24 Nov 2024</p>
+              <p class="card__text">Consapevolezza di minacce online e privacy.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="Security">
+            <div class="card__body">
+              <h3 class="card__title">Endpoint Security</h3>
+              <p class="card__meta">Cisco Networking Academy · 20 Nov 2024</p>
+              <p class="card__text">Sicurezza dei dispositivi endpoint.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="Language">
+            <div class="card__body">
+              <h3 class="card__title">English for IT 2</h3>
+              <p class="card__meta">Cisco Networking Academy · 20 Nov 2024</p>
+              <p class="card__text">Competenze linguistiche per contesti IT (livello 2).</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="Language">
+            <div class="card__body">
+              <h3 class="card__title">English for IT 1</h3>
+              <p class="card__meta">Cisco Networking Academy · 20 Nov 2024</p>
+              <p class="card__text">Competenze linguistiche per contesti IT (livello 1).</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="Security">
+            <div class="card__body">
+              <h3 class="card__title">Network Support and Security</h3>
+              <p class="card__meta">Cisco Networking Academy · 21 Oct 2024</p>
+              <p class="card__text">Supporto tecnico di rete e principi di sicurezza.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="Networking">
+            <div class="card__body">
+              <h3 class="card__title">Exploring Networking with Cisco Packet Tracer</h3>
+              <p class="card__meta">Cisco Networking Academy · 21 Oct 2024</p>
+              <p class="card__text">Simulazione di reti con Packet Tracer.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="Security">
+            <div class="card__body">
+              <h3 class="card__title">Ethical Hacker</h3>
+              <p class="card__meta">Cisco Networking Academy · 21 Oct 2024</p>
+              <p class="card__text">Tecniche di ethical hacking per identificare vulnerabilità.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="IoT">
+            <div class="card__body">
+              <h3 class="card__title">Exploring Internet of Things with Cisco Packet Tracer</h3>
+              <p class="card__meta">Cisco Networking Academy · 21 Oct 2024</p>
+              <p class="card__text">Simulazione e analisi di scenari IoT con Packet Tracer.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="IoT">
+            <div class="card__body">
+              <h3 class="card__title">Introduction to IoT and Digital Transformation</h3>
+              <p class="card__meta">Cisco Networking Academy · 21 Oct 2024</p>
+              <p class="card__text">Fondamenti di IoT e impatti della trasformazione digitale.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="Python">
+            <div class="card__body">
+              <h3 class="card__title">Python Essentials 2</h3>
+              <p class="card__meta">Cisco Networking Academy · 15 Oct 2024</p>
+              <p class="card__text">Concetti avanzati di Python.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="Networking">
+            <div class="card__body">
+              <h3 class="card__title">Getting Started with Cisco Packet Tracer</h3>
+              <p class="card__meta">Cisco Networking Academy · 24 Sep 2024</p>
+              <p class="card__text">Introduzione all'uso di Packet Tracer.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="Hardware">
+            <div class="card__body">
+              <h3 class="card__title">Computer Hardware Basics</h3>
+              <p class="card__meta">Cisco Networking Academy · 24 Sep 2024</p>
+              <p class="card__text">Componenti e funzionamento dell'hardware.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="Python">
+            <div class="card__body">
+              <h3 class="card__title">Python Essentials 1</h3>
+              <p class="card__meta">Cisco Networking Academy · 22 Sep 2024</p>
+              <p class="card__text">Basi di programmazione Python.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="Data">
+            <div class="card__body">
+              <h3 class="card__title">Introduction to Data Science</h3>
+              <p class="card__meta">Cisco Networking Academy · 21 Sep 2024</p>
+              <p class="card__text">Concetti e metodologie di data science.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024" data-domain="Security">
+            <div class="card__body">
+              <h3 class="card__title">Introduction to Cybersecurity</h3>
+              <p class="card__meta">Cisco Networking Academy · 21 Sep 2024</p>
+              <p class="card__text">Principi base di sicurezza informatica.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024/2025" data-domain="Sicurezza">
+            <div class="card__body">
+              <h3 class="card__title">Corso Sicurezza Luoghi di Lavoro</h3>
+              <p class="card__meta">MIUR · A.S. 2024/2025</p>
+              <p class="card__text">Formazione obbligatoria sicurezza sul lavoro.</p>
+            </div>
+          </li>
+          <li class="card" data-year="2024/2025" data-domain="Digitale">
+            <div class="card__body">
+              <h3 class="card__title">ICDL Digital Student Course</h3>
+              <p class="card__meta">ICDL · A.S. 2024/2025</p>
+              <p class="card__text">Competenze digitali scolastiche.</p>
+            </div>
+          </li>
+          <li class="card" data-year="N/D" data-domain="Credly">
+            <div class="card__body">
+              <h3 class="card__title">Badge pubblici</h3>
+              <p class="card__meta"><a href="https://www.credly.com/users/mirko-ando/badges" target="_blank" rel="noopener">Profilo Credly</a></p>
+              <p class="card__text">Raccolta certificazioni convalidata online.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="esperienze" class="section" aria-labelledby="esperienze-title">
+      <div class="shell">
+        <div class="section__head">
+          <p class="eyebrow">Esperienze</p>
+          <h2 id="esperienze-title">Incarichi rilevanti</h2>
+        </div>
+        <div class="list-grid" data-filter="ruolo,dominio,anno">
+          <article class="entry" data-year="2024-2026" data-role="Supporto orientamento" data-domain="Education">
+            <header class="entry__header">
+              <h3 class="entry__title">Supporto Open Day</h3>
+              <p class="entry__meta">IIS Marconi–Mangano · Catania</p>
+            </header>
+            <p class="entry__summary">Accoglienza, assistenza organizzativa, presentazione percorsi formativi durante gli Open Day (a.s. 2024/2025–2025/2026, in corso).</p>
+            <ul class="entry__facts" role="list">
+              <li>Coordinamento flussi visitatori e domande</li>
+              <li>Presentazione percorsi tecnici a studenti e famiglie</li>
+            </ul>
+          </article>
+          <article class="entry" data-year="2025" data-role="Competitor" data-domain="Competition">
+            <header class="entry__header">
+              <h3 class="entry__title">Olimpiadi di Informatica (selezioni)</h3>
+              <p class="entry__meta">Nazionale · IT</p>
+            </header>
+            <p class="entry__summary">Problem solving algoritmico e logico nelle fasi selettive nazionali (a.s. 2024/2025).</p>
+            <ul class="entry__facts" role="list">
+              <li>Allenamento su esercizi algoritmici</li>
+              <li>Gestione tempo/pressione in gara</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="progetti" class="section" aria-labelledby="progetti-title">
+      <div class="shell">
+        <div class="section__head">
+          <p class="eyebrow">Progetti</p>
+          <h2 id="progetti-title">Selezione curata</h2>
+        </div>
+        <div class="cards cards--projects" data-filter="stack,anno,tipologia">
+          <article class="card card--project" data-year="2025" data-stack="Python, Flask, SQLAlchemy, Alembic, pytest" data-type="Maintenance/Automation">
+            <div class="card__body">
+              <h3 class="card__title">ClasseManager</h3>
+              <p class="card__meta">Integrity & Maintenance Automation Agent · 1–2 settimane (dic 2025)</p>
+              <p class="card__text">Verifica integrità di codice e ambiente, pulizia file legacy/cache, riorganizzazione documentazione e directory mantenendo compatibilità.</p>
+              <p class="card__tags">Stack: Python 3.13, Flask 3.x, Flask-SQLAlchemy, SQLAlchemy 2.x, Alembic, pytest, click, python-dotenv, PyJWT, Jinja2.</p>
+            </div>
+            <footer class="card__footer">
+              <a class="card__link" href="http://mirkohousect.duckdns.org:16450/" aria-label="Dettagli progetto" target="_blank" rel="noopener">Demo (disponibilità variabile)</a>
+            </footer>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="competenze" class="section" aria-labelledby="competenze-title">
+      <div class="shell">
+        <div class="section__head">
+          <p class="eyebrow">Competenze</p>
+          <h2 id="competenze-title">Capacità mirate</h2>
+        </div>
+        <div class="competence-grid" data-grouped="true">
+          <section class="competence-block" aria-labelledby="comp-hard">
+            <h3 id="comp-hard">Hard skills</h3>
+            <ul role="list">
+              <li>Python (script, automazione, Flask) — intermedio</li>
+              <li>SQL/SQLAlchemy, SQLite/MySQL — intermedio</li>
+              <li>C/C++ (didattico) — base/intermedio</li>
+              <li>Linux server & self-hosting — base/intermedio</li>
+              <li>Git/GitHub, versioning — intermedio</li>
+              <li>Sicurezza di base (hardening locale, endpoint) — base</li>
+            </ul>
+          </section>
+          <section class="competence-block" aria-labelledby="comp-soft">
+            <h3 id="comp-soft">Soft skills</h3>
+            <ul role="list">
+              <li>Leadership silenziosa/autorevole — guida per esempio e responsabilità personale</li>
+              <li>Gestione emotiva — lucidità sotto pressione, risposta invece di reazione</li>
+              <li>Pensiero analitico — scomposizione problemi complessi, azione metodica</li>
+              <li>Disciplina/continuità — abitudini stabili anche in contesti instabili</li>
+              <li>Comunicazione adattiva — calibrazione linguaggio e tono sul contesto</li>
+              <li>Autonomia operativa — organizzazione del carico e ottimizzazione energie</li>
+            </ul>
+          </section>
+          <section class="competence-block" aria-labelledby="comp-metodologie">
+            <h3 id="comp-metodologie">Metodologie</h3>
+            <ul role="list">
+              <li>Backup e manutenzione programmata — VPS/self-hosting</li>
+              <li>Code hygiene e versioning — Git/GitHub</li>
+              <li>Pianificazione PCTO (>500h) — organizzazione attività scolastiche</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section id="archivio" class="section" aria-labelledby="archivio-title">
+      <div class="shell">
+        <div class="section__head">
+          <p class="eyebrow">Archivio</p>
+          <h2 id="archivio-title">Cronologia estesa</h2>
+        </div>
+        <div class="archive" data-order="desc" data-filter="tipo,anno">
+          <article class="archive__item" data-year="2025" data-type="PCTO">
+            <h3 class="archive__title">Percorsi PCTO (>500h)</h3>
+            <p class="archive__meta">IIS Marconi–Mangano · Catania</p>
+            <p class="archive__summary">Attività pratiche e formative a supporto del percorso informatico (2021–2025).</p>
+          </article>
+          <article class="archive__item" data-year="2025" data-type="Corso (in corso)">
+            <h3 class="archive__title">Cyber Threat Management</h3>
+            <p class="archive__meta">Networking Academy · Iscritto il 02 Dec 2025</p>
+            <p class="archive__summary">Corso in svolgimento su rilevamento e gestione minacce.</p>
+          </article>
+          <article class="archive__item" data-year="2024-2025" data-type="Corso (in corso)">
+            <h3 class="archive__title">CCNA: Introduzione alle reti</h3>
+            <p class="archive__meta">I.I.S. Marconi–Mangano · 12 Sep 2024 – 12 Jul 2025 · Docente: Enzo Riscica</p>
+            <p class="archive__summary">Formazione su fondamenti di rete (CCNA) in ambiente accademico.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contatti" class="section" aria-labelledby="contatti-title">
+      <div class="shell">
+        <div class="section__head">
+          <p class="eyebrow">Contatti</p>
+          <h2 id="contatti-title">Coordinate essenziali</h2>
+        </div>
+        <div class="contact" aria-label="Metodi di contatto">
+          <p class="placeholder">Disponibilità: full-time/stage · Italiano/Inglese · on-site/ibrido/remote.</p>
+          <ul class="contact__list" role="list">
+            <li><span class="label">Email</span> <a href="mailto:mirko.ando2008@gmail.com">mirko.ando2008@gmail.com</a></li>
+            <li><span class="label">Telefono</span> <a href="tel:+393296318067">+39 329 631 8067</a></li>
+            <li><span class="label">GitHub</span> <a href="https://github.com/xXMirkapo77" target="_blank" rel="noopener">github.com/xXMirkapo77</a></li>
+            <li><span class="label">Portfolio</span> <a href="http://mirkoportfolio.duckdns.org:16450/" target="_blank" rel="noopener">mirkoportfolio.duckdns.org:16450</a></li>
+            <li><span class="label">Credly</span> <a href="https://www.credly.com/users/mirko-ando/badges" target="_blank" rel="noopener">Badge pubblici</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="shell">
+      <p class="footnote">Portfolio tecnico – struttura modulare e pronta per estensioni future.</p>
+    </div>
+  </footer>
+
+  <script src="./js/main.js" defer></script>
+</body>
+</html>
